@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Dự báo thời tiết</title>
+        <css src="AHT_Example1::css/style.css"></css>
+    </head>
+    <referenceBlock name="content">
+        <block class="AHT\Example1\Block\Index" name="aht_example1" template="index.phtml"/>
+    </referenceBlock>
+</page>
